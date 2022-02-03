@@ -1,0 +1,44 @@
+/* Defining the Variables */
+:root{
+    --pgbackground-color:#E5E5E5;
+    --pgtext-color:#224957;
+}
+
+/* Importing Custom Font */
+@font-face {
+    font-family: "myfont";
+    src: url("LexendDecaRegular.woff") format('woff');
+}
+
+body{
+    margin: 0px;
+    background-color: var(--pgbackground-color);
+    color: var(--pgtext-color);
+    font-family: myfont;
+}
+label{
+    font-family: myfont;
+}
+
+.heading{
+    font-weight: 400;
+}
+.userinput{
+    background-color: #224957;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 45px;
+    color: white;
+    padding: 10px;
+    font-family: myfont;
+ 
+}
+input::placeholder{
+    color: white;
+    font-family: myfont;
+    font-size: 14px;
+}
+.submit-btn{
+    background-color: #20DF7F !important;
+    color: white;
+}

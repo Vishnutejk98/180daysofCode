@@ -1,0 +1,41 @@
+.login{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    height: 100%;
+
+}
+.signinform{
+ display: flex;
+ margin: auto;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.user-input{
+ display: flex;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+}
+.user-input .userinput{
+
+    width: 80%;
+    margin: auto;
+}
+.user-input .submit-btn{
+    width: 50%;
+    margin: auto;
+    
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+}
